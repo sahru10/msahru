@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edukasi Bahaya Merokok - Selamatkan Paru-Parumu</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans antialiased">
+
+  <!-- Navigation -->
+  <nav class="bg-gray-800 border-b border-gray-700 sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-2">
+        <i class="fa-solid fa-ban-smoking text-red-500 text-2xl"></i>
+        <span class="font-bold text-xl tracking-wide">CegahRokok.id</span>
+      </div>
+      <div class="space-x-6 hidden md:flex font-medium">
+        <a href="#home" class="hover:text-red-400 transition">Beranda</a>
+        <a href="#bahaya" class="hover:text-red-400 transition">Bahaya</a>
+        <a href="#fakta" class="hover:text-red-400 transition">Fakta</a>
+        <a href="#kontak" class="hover:text-red-400 transition">Kontak Konsultasi</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="max-w-6xl mx-auto px-4 py-16 flex flex-col md:flex-row items-center gap-8">
+    <div class="md:w-1/2 space-y-6">
+      <span class="bg-red-500/10 text-red-400 px-3 py-1 rounded-full text-sm font-semibold border border-red-500/20">
+        Kampanye Hidup Sehat
+      </span>
+      <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">
+        Sayangi Paru-Parumu, <span class="text-red-500">Hentikan Kebiasaan Merokok</span>
+      </h1>
+      <p class="text-gray-400 text-lg">
+        Rokok mengandung ribuan zat beracun yang merusak kesehatan tubuh jangka panjang. Ambil langkah kecil hari ini untuk hidup lebih sehat tanpa asap rokok.
+      </p>
+      <div class="flex flex-wrap gap-4 pt-2">
+        <a href="https://wa.me/6281234567890?text=Halo,%20saya%20ingin%20konsultasi%20mengenai%20cara%20berhenti%20merokok" target="_blank" class="bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-lg flex items-center space-x-2 transition shadow-lg">
+          <i class="fa-brands fa-whatsapp text-xl"></i>
+          <span>Konsultasi WA</span>
+        </a>
+        <a href="https://instagram.com/username_anda" target="_blank" class="bg-pink-600 hover:bg-pink-700 text-white font-semibold px-6 py-3 rounded-lg flex items-center space-x-2 transition shadow-lg">
+          <i class="fa-brands fa-instagram text-xl"></i>
+          <span>Follow Instagram</span>
+        </a>
+      </div>
+    </div>
+    <div class="md:w-1/2">
+      <img src="https://asset.tribunnews.com/A6r6tFIzGV4fmmon242aO-BJhBI=/1200x675/filters:upscale():quality(30):format(webp):focal(0.5x0.5:0.5x0.5)/makassar/foto/bank/originals/perbandingan-paru-paru-perkok.jpg" alt="Perbandingan Paru Paru" class="rounded-2xl shadow-2xl border border-gray-700 w-full object-cover">
+    </div>
+  </section>
+
+  <!-- Bahaya Section -->
+  <section id="bahaya" class="bg-gray-800 py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-white">Bahaya Utama Merokok</h2>
+        <p class="text-gray-400 mt-2">Dampak serius yang ditimbulkan oleh zat kimia berbahaya dalam rokok</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <div class="bg-gray-900 p-6 rounded-xl border border-gray-700 hover:border-red-500 transition">
+          <div class="text-red-500 text-3xl mb-4"><i class="fa-solid fa-heart-pulse"></i></div>
+          <h3 class="text-xl font-bold mb-2">Penyakit Jantung</h3>
+          <p class="text-gray-400 text-sm">Nikotin mempercepat detak jantung dan meningkatkan tekanan darah, memicu serangan jantung dan stroke.</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="bg-gray-900 p-6 rounded-xl border border-gray-700 hover:border-red-500 transition">
+          <div class="text-red-500 text-3xl mb-4"><i class="fa-solid fa-lungs"></i></div>
+          <h3 class="text-xl font-bold mb-2">Kanker Paru-Paru</h3>
+          <p class="text-gray-400 text-sm">Tar yang mengendap di dalam paru-paru dapat merusak sel-sel pernapasan dan memicu sel kanker ganas.</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="bg-gray-900 p-6 rounded-xl border border-gray-700 hover:border-red-500 transition">
+          <div class="text-red-500 text-3xl mb-4"><i class="fa-solid fa-skull"></i></div>
+          <h3 class="text-xl font-bold mb-2">Gangguan Kehamilan</h3>
+          <p class="text-gray-400 text-sm">Paparan asap rokok berbahaya bagi janin, meningkatkan risiko keguguran dan kelahiran prematur.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact CTA Section -->
+  <section id="kontak" class="max-w-4xl mx-auto px-4 py-16 text-center">
+    <div class="bg-gradient-to-r from-red-900/40 to-gray-800 p-8 md:p-12 rounded-2xl border border-red-500/30 shadow-2xl">
+      <h2 class="text-3xl font-bold mb-4">Butuh Bantuan untuk Berhenti?</h2>
+      <p class="text-gray-300 mb-8 max-w-xl mx-auto">
+        Tim pendampingan kami siap membantu perjalanan Anda keluar dari kecanduan merokok secara bertahap.
+      </p>
+      <div class="flex justify-center flex-wrap gap-4">
+        <!-- Gantilah nomor WA dan link Instagram berikut dengan milik Anda -->
+        <a href="https://wa.me/6281234567890?text=Halo,%20saya%20butuh%20bantuan%20konsultasi" target="_blank" class="bg-green-500 hover:bg-green-600 text-white font-bold px-8 py-3 rounded-full flex items-center space-x-2 transition shadow-lg">
+          <i class="fa-brands fa-whatsapp text-2xl"></i>
+          <span>Hubungi via WhatsApp</span>
+        </a>
+        <a href="https://instagram.com/username_anda" target="_blank" class="bg-gradient-to-r from-purple-500 to-pink-500 hover:opacity-90 text-white font-bold px-8 py-3 rounded-full flex items-center space-x-2 transition shadow-lg">
+          <i class="fa-brands fa-instagram text-2xl"></i>
+          <span>Kunjungi Instagram</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 border-t border-gray-700 py-6 text-center text-gray-500 text-sm">
+    <p>&copy; 2026 Edukasi Bahaya Merokok. Hak Cipta Dilindungi.</p>
+  </footer>
+
+</body>
+</html>
